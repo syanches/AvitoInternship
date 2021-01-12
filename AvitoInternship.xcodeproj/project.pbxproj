@@ -13,6 +13,8 @@
 		2819F92E25AE35B00083C4FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819F92C25AE35B00083C4FE /* Main.storyboard */; };
 		2819F93025AE35B10083C4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2819F92F25AE35B10083C4FE /* Assets.xcassets */; };
 		2819F93325AE35B10083C4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819F93125AE35B10083C4FE /* LaunchScreen.storyboard */; };
+		2819F93C25AE384F0083C4FE /* result.json in Resources */ = {isa = PBXBuildFile; fileRef = 2819F93B25AE384F0083C4FE /* result.json */; };
+		286147E325AE47720011B803 /* AvitoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286147E225AE47720011B803 /* AvitoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2819F92F25AE35B10083C4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2819F93225AE35B10083C4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2819F93425AE35B10083C4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2819F93B25AE384F0083C4FE /* result.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = result.json; sourceTree = "<group>"; };
+		286147E225AE47720011B803 /* AvitoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		2819F92525AE35B00083C4FE /* AvitoInternship */ = {
 			isa = PBXGroup;
 			children = (
+				2819F93B25AE384F0083C4FE /* result.json */,
 				2819F92625AE35B00083C4FE /* AppDelegate.swift */,
 				2819F92825AE35B00083C4FE /* SceneDelegate.swift */,
 				2819F92A25AE35B00083C4FE /* ViewController.swift */,
+				286147E225AE47720011B803 /* AvitoCollectionViewCell.swift */,
 				2819F92C25AE35B00083C4FE /* Main.storyboard */,
 				2819F92F25AE35B10083C4FE /* Assets.xcassets */,
 				2819F93125AE35B10083C4FE /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			files = (
 				2819F93325AE35B10083C4FE /* LaunchScreen.storyboard in Resources */,
 				2819F93025AE35B10083C4FE /* Assets.xcassets in Resources */,
+				2819F93C25AE384F0083C4FE /* result.json in Resources */,
 				2819F92E25AE35B00083C4FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				2819F92B25AE35B00083C4FE /* ViewController.swift in Sources */,
 				2819F92725AE35B00083C4FE /* AppDelegate.swift in Sources */,
+				286147E325AE47720011B803 /* AvitoCollectionViewCell.swift in Sources */,
 				2819F92925AE35B00083C4FE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
